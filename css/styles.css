@@ -1,6 +1,6 @@
 :root{
     --primario: #141829;
-    --primario-oscuro: #0a0c14;
+    --primario-oscuro: #101324;
     --secundario: #1ba16e;
     --secundario-oscuro: #125e41;
     --blanco: #fff;
@@ -54,3 +54,26 @@ h1{font-size: 4rem;}
 h2{font-size: 3.2rem;}
 h3{font-size: 2,4rem;}
 
+/**Header**/
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin: 3rem 0;
+}
+
+
+/**Navegación**/
+.navegacion{
+    background-color: var(--primario-oscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion__enlace{
+
+}
